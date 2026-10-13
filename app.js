@@ -449,7 +449,7 @@ function renderContact() {
             <div class="contact-item-icon">📞</div>
             <div>
               <div class="contact-item-label">Téléphone</div>
-              <div class="contact-item-value">+33 1 42 86 90 00</div>
+              <div class="contact-item-value">+33 1 00 00 00 00</div>
             </div>
           </div>
           <div class="contact-item">
@@ -488,7 +488,7 @@ function renderContact() {
             </div>
             <div class="form-group">
               <label class="form-label" for="phone">Téléphone</label>
-              <input class="form-input" type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78" />
+              <input class="form-input" type="tel" id="phone" name="phone" placeholder="+33 6 00 00 00 00" />
             </div>
           </div>
           <div class="form-group">
@@ -500,6 +500,7 @@ function renderContact() {
               <option value="financement">Financement</option>
               <option value="reprise">Reprise de véhicule</option>
               <option value="service">Service après-vente</option>
+              <option value="service">Location de véhicule</option>
               <option value="autre">Autre</option>
             </select>
           </div>
